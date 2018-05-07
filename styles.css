@@ -1,0 +1,244 @@
+/*TOP LEVEL*/
+body
+{
+	padding: 0;
+	margin: 0 10%;
+	color: #ccc;
+	background: black;
+	font-family: "myriad pro", "myriad pro condensed", "arial narrow", arial, sans-serif;
+	font-size: 120%;
+}
+div#wrapper
+{
+	margin: 0;
+	min-width: 560px;
+}
+h2
+{
+	font-size: 180%;
+	font-weight: 400;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+}
+a:hover, a:focus
+{
+	color: #09f;
+	text-decoration: underline;
+}
+
+video
+{
+	-moz-transition: 0.2s linear all;
+	-webkit-transition: 0.2s linear all;
+	-o-transition: 0.2s linear all;
+	-ms-transition: 0.2s linear all;
+	transition: 0.2s linear all;
+}
+
+video:hover
+{
+	-moz-transform: scale(1.05,1.05);
+	-webkit-transform: scale(1.05,1.05);
+	-o-transform: scale(1.05,1.05);
+	-ms-transform: scale(1.05,1.05);
+	transform: scale(1.05,1.05);
+	-moz-transition: 0.3s linear all;
+	-webkit-transition: 0.3s linear all;
+	-o-transition: 0.3s linear all;
+	-ms-transition: 0.3s linear all;
+	transition: 0.3s linear all;
+}
+
+/*BANNER*/
+div#banner
+{
+	margin-top: -26px;
+	height: 113px;
+	background-image: url(Assets/Media/Images/Gradients/banner.jpg);
+	background-repeat: repeat-x;
+}
+div#banner h1
+{
+	padding: 23px 20px;
+}
+div#banner h1 a img{display: inline-block;}
+
+h2#tagline{text-align: right; margin-top: -138px; margin-right: 20px;}
+
+/*NAVIGATION*/
+ul#navBar
+{
+	margin-top: 0;
+	padding: 14px 0;
+	padding-top: 4px;
+	list-style-type: none;
+	text-align: center;
+	background-image:url(Assets/Media/Images/Gradients/navigation.jpg);
+	background-repeat: repeat-x;
+}
+ul#navBar li
+{
+	display: inline;
+}
+ul#navBar li a
+{
+	padding: 4px 16px;
+	color: white;
+	text-decoration: none;
+	font-size: 150%;
+	-moz-transition: .2s linear all;
+	-webkit-transition: .2s linear all;
+	-o-transition: .2s linear all;
+	-ms-transition: .2s linear all;
+	transition: .2s linear all;
+}
+ul#navBar li a:hover, ul#navbar li a:focus
+{
+	color: rgba(0,235,0,1);
+	background: rgba(255,255,255,0.2);
+	-moz-transition: .3s linear all;
+	-webkit-transition: .3s linear all;
+	-o-transition: .3s linear all;
+	-ms-transition: .3s linear all;
+	transition: .3s linear all;
+}
+ul#navBar li a.current
+{
+	background: rgba(255,100,0,0.55);
+	pointer-events: none;
+}
+
+/*CONTENT*/
+div#content
+{
+	background: #222;
+	padding: 2px 20px;
+	margin-top: -1.5em;
+}
+div#content h4
+{
+	font-size: 110%;
+	font-weight: 100;
+}
+div#content img#selfPortrait
+{
+	float: left;
+	margin-top: 8px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+div.heading
+{
+	background: #04f;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: .5em;
+	border: 2px solid #777;
+	text-shadow: 1px 1px 2px black;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;	
+}
+div.heading h3
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 150%;
+	font-weight: 300;
+}
+div.heading h3.subHeading, div.heading h3.dates
+{
+	font-size: 120%;	
+}
+div.heading h3 a
+{
+	display: block;
+	margin-top: -38px;
+	margin-left: 420px;
+	text-align: right;
+	font-size: 30px;
+}
+div.heading h3 a img
+{
+	position: relative;
+	top: 3px;
+	right: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+}
+div.heading h3 a:hover img, div.heading h3 a:focus img
+{
+	-moz-box-shadow: 0 0 4px black;
+	-webkit-box-shadow: 0 0 4px black;
+	-o-box-shadow: 0 0 4px black;
+	-ms-box-shadow: 0 0 4px black;
+	box-shadow: 0 0 4px black;
+}
+
+p.portfolio
+{
+	margin: 30px auto;
+	width: 100%;
+	max-width: 980px;
+}
+img.portfolio, video.portfolio
+{
+	display: block;
+	margin: 10px auto;
+	width: 80%;
+	max-width: 960px;
+	border: 10px solid white;
+}
+
+/*FOOTER*/
+div#footer
+{
+	padding: 0 1em;
+	margin-top: -1em;
+	background-image: url(Assets/Media/Images/Gradients/footer.jpg);
+	background-repeat: repeat-x;
+}
+div#footer h4
+{
+	padding: 1em 0;
+	vertical-align: middle;
+	font-size: 70%;
+	font-weight: 100;
+}
+div#footer h4 img
+{
+	float: left;
+	position: relative;
+	bottom: .5em;
+	padding-right: 1em;
+}
+
+/*FOR PROGRESSIVELY SMALLER CLIENTS (BROWSERS)*/
+@media screen and (max-width: 1600px)
+{
+	body {margin: 0 5%;}
+}
+@media screen and (max-width: 920px)
+{
+	body {margin: 0;}
+}
+@media screen and (max-width: 745px)
+{
+	div#footer h4{padding: 0.6em 0; vertical-align: auto;}
+	div#footer h4 img{bottom: 0em;}
+}
+@media screen and (max-width: 700px)
+{
+	div.heading h3 a em{display: none;}
+}

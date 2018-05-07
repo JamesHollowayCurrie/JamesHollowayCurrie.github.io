@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+<title>JHC Media - Contact Me</title>
+
+<script src="Assets/Includes/CommonMetadata.js"></script>
+
+<style type="text/css" media="all">
+form
+{
+	margin: 1em 0;
+	padding-bottom: 2em;
+}
+
+form fieldset
+{
+	padding: 4px;
+	border: none;
+}
+
+label, input, textarea
+{
+	display: block;
+}
+
+input, textarea, legend
+{
+	margin-bottom: 2em;
+}
+
+input#submit
+{
+	margin-bottom: 0em;
+}
+
+legend
+{
+	display: none;
+}
+
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+
+<script src="Assets/Includes/BannerAndNavBar.js"></script>
+
+<div id="content">
+
+<h2>Contact Me</h2>
+<form action="contactFormHandler.php" method="post">
+<fieldset>
+<legend>Email to JHC Media</legend>
+
+<label for="to" accesskey="t">To: </label>
+<input maxlength="58" size="60" name="to" id="to" readonly value="JHC Media"/>
+
+<label for="email" accesskey="e">From: </label>
+<input type="text" maxlength="58" size="60" name="email" id="email"/>
+
+<label for="message" accesskey="m">Message: </label>
+<textarea rows="8" cols="60" name="message" id="message"></textarea>
+
+<input id="submit" type="submit" value="Send"/>
+
+</fieldset>
+
+
+</form>
+
+
+</div>
+
+<script src="Assets/Includes/Footer.js"></script>
+
+</div>
+</div>
+</body>
+</html>
