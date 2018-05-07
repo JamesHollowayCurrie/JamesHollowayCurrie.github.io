@@ -18,9 +18,5 @@ else
 
 document.write('<li><a href="Holloway-Currie,_James_Resume.pdf" class ="">Resume</a></li>');
 
-if(document.title == "JHC Media - Contact Me")
-	document.write('<li><a href="contactForm.html" class ="current">Contact</a></li>');
-else
-	document.write('<li><a href="contactForm.html" class ="">Contact</a></li>');
 document.write('<li><a href="http://www.linkedin.com/pub/james-holloway-currie/89/7b9/760?domainCountryName=&csrfToken=ajax%3A4999612905356199504" class ="" style="margin: 0; padding: 4px 16px;"><img src="Assets/Media/Images/in.png" alt="LinkedIn" title="LinkedIn" style="width: 30px; height: 30px; vertical-align: top; padding-top: 2px;"/></a></li>');
 document.write('</ul>');
