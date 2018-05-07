@@ -6,10 +6,10 @@ document.write('<h2 id="tagline"><img src="Assets/Media/Images/tagline.png" alt=
 document.write('</div>');
 
 document.write('<ul id="navBar">');
-if(document.title == "JHC Media - Portfolio")
-	document.write('<li id="Home"><a href="index.html" class ="current">Portfolio</a></li>');
+if(document.title == "JHC Media - Games")
+	document.write('<li id="Home"><a href="index.html" class ="current">Games</a></li>');
 else
-	document.write('<li id="Home"><a href="index.html" class ="">Portfolio</a></li>');	
+	document.write('<li id="Home"><a href="index.html" class ="">Games</a></li>');	
 
 if(document.title == "JHC Media - About")
 	document.write('<li><a href="about.html" class ="current">About</a></li>');
