@@ -14,12 +14,26 @@
 <div id="content">
 
 <div class="heading">
-<h3>Developer/Programmer</h3>
+<h3>Developer/Graphics Programmer</h3>
 <h3 class="subHeading">Thunderbowl</h3>
 <h3 class="dates">January, 2017 - Present</h3>
 </div>
 
-<p>More on Thunderbowl comming soon. Check back regularly.</p>
+<img class="portfolio" src="Assets/Media/Images/Thunderbowl/Thunderbowl0.jpg" alt="Thunderbowl Cover Art" title="Thunderbowl Cover Art"/>
+
+<p class="portfolio">Thunderbowl is a 3rd-person, local multiplayer, vehicular combat game designed to be quick, deadly and easy to pick up and play. Blending elements from shooters, action and racing games, it is ideal for play with friends and family.</p>
+
+<p class="portfolio">Cycle between a mini-gun, flamethrower and rocket launcher to blindside your opponents. Race maddeningly about the center of the Thunderbowl to collect the precious ammo before they do. Players must be careful to stay inside the stadium.</p>
+
+<img class="portfolio" src="Assets/Media/Images/Thunderbowl/Thunderbowl1.jpg" alt="4-player Split-screen" title="4-player Split-screen"/>
+
+<p class="portfolio">Thunderbowl is developed on a custom OpenGL rendering engine and utilizes GLSL shaders and deferred rendering to produce depth-of-field, bloom and motion blur. In deferred shading, a G-buffer is used to store fragment colors, normals, positions and material information to perform lighting calculations, including those, and other, post-process effects. The transparent water also creates its refraction effect, through a technique known as Screen-Space Refraction, with parts of this G-buffer texture. </p>
+
+<p class="portfolio">The game makes use of a day-night shift to transition between night and day lighting as the player drives around the arena. This is accomplished by shifting direct, ambient and sky light between orange and blue based on the player's direction. Since both the sun and moon produce enough light, even the reflections on the vehicles and water respond to this change. </p>
+
+<img class="portfolio" src="Assets/Media/Images/Thunderbowl/Thunderbowl2.jpg" alt="Semi-glossiness and Glare on the Water and Ground" title="Semi-glossiness and Glare on the Water and Ground"/>
+
+<p class="portfolio">To speed up the calculations of roughness, many different, progressively blurrier, versions of the skybox texture were made. This allowed increasing material roughness to be represented by blending between them, rather than by sampling a single map repeatedly and eating away at the memory bandwidth on the poor GPU. This allows the game to run at framerates well above 100 on newer hardware.</p>
 
 <div class="heading">
 <h3>Engine and Graphics Programmer<a href="https://drive.google.com/open?id=10eo1qlTIDcSuwHPnS7bthEEC2L0KCETN"><img src="Assets/Media/Images/download.png" style="width: 40px; height: 30px;"/><em>Download v1.2</em></a></h3>
@@ -29,7 +43,7 @@
 
 <img class="portfolio" src="Assets/Media/Images/HorathsStatue/Horath0.jpg" alt="Horath's Statue Cover Art" title="Horath's Statue Cover Art"/>
 
-<p class="portfolio">Horath's Statue is a 3D, Top-Down, Dungeon Defense, Dual-Stick Shooter for PC. The game was built from scratch with Visual Studio, C++ and OpenGL, by myself and Adam Grosse. I was responsible for building a complete, functional engine and graphics pipeline from the ground up. This included Shader writing in GLSL.</p>
+<p class="portfolio">Horath's Statue is a 3D, Top-Down, Dungeon Defense, Dual-Stick Shooter for PC (Windows 7, or later). The game was built from scratch with Visual Studio, C++ and OpenGL, by myself and Adam Grosse. I was responsible for building a complete, functional engine and graphics pipeline from the ground up. This included Shader writing in GLSL.</p>
 
 <p class="portfolio">The engine's core rendering information was abstracted to separate classes to make object instantiation and management easy. Rendering an object on the screen in OpenGL requires the creation of three Transform Matrices: Model to World, World to View and View to Projection.</p>
 
