@@ -29,6 +29,10 @@ a:hover, a:focus
 	color: #09f;
 	text-decoration: underline;
 }
+p.portfolio a
+{
+	color: #0bf;
+}
 
 video
 {
@@ -69,7 +73,7 @@ div#banner h1 a img{display: inline-block;}
 
 h2#tagline{text-align: right; margin-top: -138px; margin-right: 20px;}
 
-/*NAVIGATION*/
+/*PRIMARY NAVIGATION BAR*/
 ul#navBar
 {
 	margin-top: 0;
@@ -110,6 +114,51 @@ ul#navBar li a.current
 {
 	background: rgba(255,100,0,0.55);
 	pointer-events: none;
+}
+
+/*FLOATING NAVIGATION*/
+div#floatingNav
+{
+	transition: 0.4s ease all;
+	position: fixed;
+	top: 160px;
+	right: -204px;
+	padding: 5px 5px 10px 14px;
+	background: #04f;
+	border: 2px solid gray;
+	box-shadow: 0 0 5px black;
+	opacity: 0.75;
+}
+
+div#floatingNav:hover
+{
+	transition: 0.4s ease all;
+	right: -2px;
+	opacity: 1;
+}
+
+div#floatingNav a
+{
+	display: block;
+	padding-bottom: 5px;
+	text-shadow: 0 0 2px black;
+}
+
+div#floatingNav a img
+{
+	position: relative;
+	top: 10px; right: 8px; width: 32px; height: 32px;
+}
+
+div#floatingNav a:hover img
+{
+	transition: 0.2s ease all;
+	top: 12px; width: 36px; height: 36px;
+}
+
+div#floatingNav a img#top
+{
+	transform: rotate(180deg);
 }
 
 /*CONTENT*/
@@ -186,14 +235,14 @@ div.heading h3 a:hover img, div.heading h3 a:focus img
 	box-shadow: 0 0 4px black;
 }
 
-dl.faq
+dl.portfolio
 {
 	margin: 30px auto;
 	width: 100%;
 	max-width: 980px;
 }
 
-dl.faq dd
+dl.portfolio dd
 {
 	margin-top: 15px;
 	margin-left: 0;
@@ -242,7 +291,7 @@ div#footer h4 img
 {
 	body {margin: 0 5%;}
 }
-@media screen and (max-width: 920px)
+@media screen and (max-width: 900px)
 {
 	body {margin: 0;}
 }
