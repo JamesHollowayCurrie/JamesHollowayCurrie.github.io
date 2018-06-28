@@ -11,7 +11,7 @@ body
 div#wrapper
 {
 	margin: 0;
-	min-width: 560px;
+	min-width: 600px;
 }
 h2
 {
@@ -248,7 +248,7 @@ dl.portfolio dd
 	margin-left: 0;
 }
 
-p.portfolio
+p.portfolio, h3.plainHeading
 {
 	margin: 30px auto;
 	width: 100%;

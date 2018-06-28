@@ -45,7 +45,7 @@ document.write('<ul id="navBar">');
 if(document.title == "JHC Media - Games")
 	document.write('<li id="Home"><a href="index.html" class ="current">Games</a></li>');
 else
-	document.write('<li id="Home"><a href="index.html" class ="">Games</a></li>');	
+	document.write('<li id="Home"><a href="index.html" class ="">Games</a></li>');
 
 if(document.title == "JHC Media - About")
 	document.write('<li><a href="about.html" class="current">About</a></li>');
@@ -54,7 +54,9 @@ else
 
 document.write('<li><a href="Holloway-Currie,_James_Resume.pdf" class ="">Resume</a></li>');
 
-document.write('<li><a href="http://www.linkedin.com/pub/james-holloway-currie/89/7b9/760?domainCountryName=&csrfToken=ajax%3A4999612905356199504" class ="" style="margin: 0; padding: 4px 16px;"><img src="Assets/Media/Images/in.png" alt="LinkedIn" title="LinkedIn" style="width: 30px; height: 30px; vertical-align: top; padding-top: 2px;"/></a></li>');
+document.write('<li><a href="http://www.linkedin.com/pub/james-holloway-currie/89/7b9/760?domainCountryName=&csrfToken=ajax%3A4999612905356199504" class ="" style="margin: 0; padding: 4px 12px;"><img src="Assets/Media/Images/in.png" alt="LinkedIn" title="LinkedIn" style="width: 30px; height: 30px; vertical-align: top; padding-top: 2px;"/></a></li>');
+
+document.write('<li><a href="https://twitter.com/MediaJhc" class ="" style="margin: 0; padding: 4px 12px;"><img src="Assets/Media/Images/twitter.png" alt="Twitter@MediaJHC" title="Twitter@MediaJHC" style="width: 28px; height: 28px; vertical-align: top; padding-top: 3px;"/></a></li>');
 
 document.write('<li><a onclick="lightProfile = !lightProfile; toggleLightDark();"><img id="toggle"  src="Assets/Media/Images/thunderbowl-icon.png" alt="Toggle Light/Dark view" title="Toggle Light/Dark View" style="width: 14px; height 14px; vertical-align: top; margin-top: 11px; border-radius: 32px; box-shadow: 0 0 4px 8px #0f0;"/></a></li>');
 
