@@ -248,6 +248,12 @@ dl.portfolio dd
 	margin-left: 0;
 }
 
+dl.portfolio dt
+{
+	margin-top: 45px;
+	font-weight: 600;
+}
+
 p.portfolio, h3.plainHeading
 {
 	margin: 30px auto;
