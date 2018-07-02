@@ -34,6 +34,21 @@ p.portfolio a, dl.portfolio a
 	color: #0bf;
 }
 
+iframe.SteamWidget
+{
+	transition: 0.5s ease all;
+	margin-top: 10px;
+	width: 100%;
+	height: 190px;
+	max-width: 800px;
+}
+
+iframe.SteamWidget:hover
+{
+	transition: 0.5s ease all;
+	box-shadow: 0 0 10px white;
+}
+
 video
 {
 	-moz-transition: 0.2s linear all;
