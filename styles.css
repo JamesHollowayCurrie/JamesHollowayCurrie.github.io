@@ -46,7 +46,7 @@ iframe.SteamWidget
 iframe.SteamWidget:hover
 {
 	transition: 0.5s ease all;
-	box-shadow: 0 0 10px white;
+	box-shadow: 0 0 10px rgba(255,255,255,0.5);
 }
 
 video
