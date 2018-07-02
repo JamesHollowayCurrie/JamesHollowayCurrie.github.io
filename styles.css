@@ -29,7 +29,7 @@ a:hover, a:focus
 	color: #09f;
 	text-decoration: underline;
 }
-p.portfolio a
+p.portfolio a, dl.portfolio a
 {
 	color: #0bf;
 }
