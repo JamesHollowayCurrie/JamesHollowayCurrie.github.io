@@ -72,6 +72,6 @@ document.write('<li><a href="http://www.linkedin.com/pub/james-holloway-currie/8
 
 document.write('<li><a href="https://twitter.com/MediaJhc" class ="" style="margin: 0; padding: 4px 12px;"><img src="Assets/Media/Images/twitter.png" alt="Twitter@MediaJHC" title="Twitter@MediaJHC" style="width: 28px; height: 28px; vertical-align: top; padding-top: 3px;"/></a></li>');
 
-document.write('<li title="Toggle Light/Dark View"><a onclick="lightProfile = !lightProfile; toggleLightDark();"><img id="toggle"  src="Assets/Media/Images/lightToggle.png" style="width: 1px; height 1px; vertical-align: top; margin: 0 5px; margin-top: 17px; border-radius: 32px; box-shadow: 0 0 6px 12px #0f0;"/></a></li>');
+document.write('<li style="cursor: pointer;" title="Toggle Light/Dark View"><a onclick="lightProfile = !lightProfile; toggleLightDark();"><img id="toggle"  src="Assets/Media/Images/lightToggle.png" style="width: 1px; height 1px; vertical-align: top; margin: 0 5px; margin-top: 17px; border-radius: 32px; box-shadow: 0 0 6px 12px #0f0;"/></a></li>');
 
 document.write('</ul>');
