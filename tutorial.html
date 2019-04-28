@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+<title>JHC Media - Tutorials</title>
+
+<script src="Assets/Includes/CommonMetadata.js"></script>
+
+</head>
+<body>
+
+<div id="wrapper">
+
+<script src="Assets/Includes/BannerAndNavBar.js"></script>
+
+<div id="content">
+
+<div class="heading">
+<h3>Welcome to the Vulcan API and C++ (This page is under construction)</h3>
+<h3 class="subHeading"></h3>
+</div>
+
+<p class="portfolio" style="color: orange;"><em>Note: Tutorial content comming at a later date. This area is preliminary!</em></p>
+
+<p class="portfolio">Welcome to the tutorial section for Vulcan and C++. Here I will be posting and updating tutorials on the use of the Vulcan Graphics API for Windows using C++. Though all tutorials will focus on development in the windows environment, they can be easily adapted for writing applications on any platform. They will focus on the development of modern real-time rendering engines, but will be interspersed with tutorials covering basic C++, physics, game logic and other bits as supplement.</p>
+
+<h3 class="plainHeading">Who are these tutorials for?</h3>
+
+<p class="portfolio">These tutorials will focus on the use of Vulcan with C++ for the creation of various CGI effects and 3D rendering in a real-time context. As such, they will be of greatest interest to game developers and other CG professionals/students who work with real-time rendering solutions. The tutorials are written for the beginner, someone with little to no C++ or graphics experience, but many of the later tutorials will be of interest to seasoned graphics veterans as well.</p>
+
+<h3 class="plainHeading">What will you learn?</h3>
+
+<p class="portfolio">The tutorials start with a very basic introduction to C++ and simple 2D rendering with Vulcan. This will move into 3D rendering, deferred shading, screen-space effects, physics and interaction logic. The first few tutorials are listed in the order most appropriate for learning from scratch. However, each section has a 'start point' for which you can download the .cpp files and use them within the project created in the 'Getting Started' section.</p>
+
+<div class="heading">
+<h3>Introduction</h3>
+<h3 class="subHeading"></h3>
+</div>
+
+<p class="portfolio">While it can be very fun and cool to see spectacular film-like effects light up miraculously on your screen, building any real-time graphics engine from stractch is both a challenging and interesting experience. I know you're eager to dive in, but first some preparations...</p>
+
+<h3 class="plainHeading">What you will need</h3>
+
+<p class="portfolio">As a Graphics API, Vulcan runs on your computer's grpahics card, but it can't do this on its own. Software side code, running on your CPU, needs to execute the commands necesary to push pixels onto your display. That's right, we'll be using C++ to issue these commands, which means we'll need an IDE of some description to compile it for us. We'll also need libraries to handle some of the linking with Vulcan. These and more are detailed below:</p>
+
+<h3 class="plainHeading">Why Vulcan (as opposed to OpenGL or DirectX)?</h3>
+
+<p class="portfolio">Released in 2015 by the Kronos Group, Vulcan is the spiritual successor to OpenGL. It is designed to operate simultaneously on multiple types of GPUs, distributing loads seamlessly, for increased speeds, where OpenGL was built for workstation running a single discrete GPU. There are also a number of architectural improvements over OpenGL: It is able to run without data verification (OpenGL always verifies data and generates extensive error feedback), executes draw calls nearly 9 times faster by reducing the number of subroutine calls, and allows you to precompile Shaders into byte code.</p>
+
+<p class="portfolio">DirectX is by far the most popular graphics API for video games and many graphics applications, but it is a proprietary Microsoft product. As such, it is only available on Windows and Microsoft licenced devices. The goal of these tutorials is to teach an open-source initiative in graphics, so they won't be covering any DirectX specific material. That said, much of these concepts transfer directly to any grpahics API, both now and in the future.</p>
+
+<h3 class="plainHeading">Wait, if these tutorials are supposed to highlight open-source, why are they on Windows?</h3>
+
+<p class="portfolio">You've got me there! Simply put, Visual Studio is the IDE of choice for developers, so it makes little sense to write these tutorials </p>
+
+</div>
+<script src="Assets/Includes/Footer.js"></script>
+</div>
+</div>
+</body>
+</html>
